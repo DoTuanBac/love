@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
   var hour = document.querySelector('.hour');
   var min = document.querySelector('.min');
   var second = document.querySelector('.second');
-  var startDate = new Date("May 16, 2020 20:00:00");
+  var startDate = new Date("May 17, 2020 20:00:00");
 
   countTime();
 
