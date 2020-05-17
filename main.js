@@ -10,7 +10,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
   function countTime() {
     let today = new Date().getTime();
-    let md = (startDate-today);
+    let md = (today-startDate);
     let ms = md  % 86400000;
     days.innerText = Math.floor(md/(86400000));
     hour.innerText = Math.floor(ms / 3600000);
